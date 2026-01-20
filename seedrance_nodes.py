@@ -19,7 +19,7 @@ except ImportError:
             raise ImportError("VideoFromFile is not available in your ComfyUI version")
 
 # 导入共享模块
-from .seedream_shared import (
+from .seedrance_shared import (
     # 模型配置
     VIDEO_MODEL_MAP,
     T2V_MODELS,

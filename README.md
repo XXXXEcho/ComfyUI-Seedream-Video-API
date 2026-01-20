@@ -1,6 +1,6 @@
-# ComfyUI-Seedream-Video-API
+# ComfyUI-Seedrance-Video-API
 
-ComfyUI 火山引擎 Seedream 视频生成 API 节点插件
+ComfyUI 火山引擎 Seedrance 视频生成 API 节点插件
 
 ## 功能特性
 
@@ -12,12 +12,12 @@ ComfyUI 火山引擎 Seedream 视频生成 API 节点插件
 
 | 节点名称 | 功能描述 | 支持模型 |
 |---------|---------|---------|
-| **Seedream 文生视频** | 基于文本提示词生成视频 | Seedance 1.5/1.0 Pro/Lite |
-| **Seedream 图生视频-首帧** | 使用首帧图片生成视频 | Seedance 1.5/1.0 Pro/Lite I2V |
-| **Seedream 首尾帧图生视频** | 使用首尾帧生成过渡视频 | Seedance 1.5/1.0 Pro/Lite I2V |
-| **Seedream 参考图生视频** | 使用1-4张参考图片生成视频 | Seedance 1.0 Lite I2V |
-| **Seedream 草稿转正式视频** | 基于Draft任务ID生成高质量视频 | Seedance 1.5 Pro |
-| **Seedream 视频任务查询** | 查询视频生成任务状态和结果 | 所有模型 |
+| **Seedance 文生视频** | 基于文本提示词生成视频 | Seedance 1.5/1.0 Pro/Lite |
+| **Seedance 图生视频-首帧** | 使用首帧图片生成视频 | Seedance 1.5/1.0 Pro/Lite I2V |
+| **Seedance 首尾帧图生视频** | 使用首尾帧生成过渡视频 | Seedance 1.5/1.0 Pro/Lite I2V |
+| **Seedance 参考图生视频** | 使用1-4张参考图片生成视频 | Seedance 1.0 Lite I2V |
+| **Seedance 草稿转正式视频** | 基于Draft任务ID生成高质量视频 | Seedance 1.5 Pro |
+| **Seedance 视频任务查询** | 查询视频生成任务状态和结果 | 所有模型 |
 
 ---
 
@@ -120,7 +120,7 @@ ComfyUI 火山引擎 Seedream 视频生成 API 节点插件
 
 **Q: 草稿模式是什么？**
 - 快速生成低质量预览视频
-- 使用 `Seedream 草稿转正式视频` 节点生成高质量版本
+- 使用 `Seedance 草稿转正式视频` 节点生成高质量版本
 
 **Q: 任务超时怎么办？**
 - 增加 `timeout_seconds` 参数
@@ -133,8 +133,8 @@ ComfyUI 火山引擎 Seedream 视频生成 API 节点插件
 ```
 ComfyUI-Seedrance-API-TUTU/
 ├── __init__.py           # 模块初始化
-├── seedream_shared.py    # 共享工具函数
-├── seedream_nodes.py     # 视频节点定义
+├── seedrance_shared.py   # 共享工具函数
+├── seedrance_nodes.py    # 视频节点定义
 └── README.md            # 本文档
 ```
 
